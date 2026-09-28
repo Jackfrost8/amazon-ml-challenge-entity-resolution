@@ -7,14 +7,12 @@ venv/
 # Competition data
 dataset/
 
-
-
-# Checkpoints
+# Generated checkpoints
 candidates_state_*.txt
 candidates_incremental_*.csv
 candidates_part*.csv
 features_part*.csv
-s1_clean_part*.pkl
+s1_clean*.pkl
 s2s3_clean.pkl
 
 # Trained models
