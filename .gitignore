@@ -1,27 +1,22 @@
-# Datasets and outputs (Do not commit gigabytes of data!)
-dataset/
-output/
-*.tsv
-*.csv
-
-# Models
-*.json
-*.bin
-*.pt
-*.pkl
-xgb_model.json
-
-# Virtual Environments
-venv/
-env/
-.env
-
-# Python Caches
+# Python
 __pycache__/
 *.pyc
-*.pyo
+.venv/
+venv/
 
-# Build artifacts (from PyInstaller)
-build/
-dist/
-*.spec
+# Competition data
+dataset/
+
+
+
+# Checkpoints
+candidates_state_*.txt
+candidates_incremental_*.csv
+candidates_part*.csv
+features_part*.csv
+s1_clean_part*.pkl
+s2s3_clean.pkl
+
+# Trained models
+lgbm_model.txt
+xgb_model.json
